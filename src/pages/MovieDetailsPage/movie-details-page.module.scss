@@ -1,0 +1,56 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-transform: capitalize;
+    width: 100px;
+    height: 45px;
+
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+
+    background-color: black;
+    color: orange;
+    cursor: pointer;
+
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: orange;
+        background-color: green;
+    }
+}
+
+.container{
+    border-bottom: 1px solid grey;
+    padding: 20px
+}
+
+.title {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.list{
+    padding-left: 20px;
+    list-style: square;
+}
+
+.item{
+    text-decoration: underline;
+    font-size: 24px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: orange;
+    }
+}
